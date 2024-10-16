@@ -8,7 +8,7 @@ import Navbar from "./Navbar/Navbar";
 const Home = () => {
     return (
         <div className="mx-auto container">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
                <div className="py-4 rounded-lg">
                <Banner></Banner>
                </div>
