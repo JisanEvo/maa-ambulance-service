@@ -23,7 +23,7 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">পাবনা টু ঢাকা</h2>
+                        <h2 className="card-title">পাবনা <FcRight /> ঢাকা</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
 
 
@@ -33,7 +33,7 @@ const Service = () => {
 
                     </div>
                 </div>
-                {/*  টু ঢাকা to pabna২ */}
+                {/*  ঢাকা to pabna২ */}
                 <div className="card bg-base-100 w-96 shadow-xl px-4 sm:px-8">
                     <figure>
                         <img
@@ -41,7 +41,7 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">ঢাকা টু পাবনা</h2>
+                        <h2 className="card-title">ঢাকা <FcRight /> পাবনা</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
                             {/* <button >কল করুন(args) </button> */}
@@ -63,7 +63,7 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">পাবনা টু রাজশাহী</h2>
+                        <h2 className="card-title">পাবনা <FcRight /> রাজশাহী</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
 
                         <Link to='/reserve'>
@@ -79,7 +79,7 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">পাবনা টু ঢাকা</h2>
+                        <h2 className="card-title">রাজশাহী <FcRight /> পাবনা</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
 
                         <Link to='/reserve'>
@@ -111,7 +111,7 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">পাবনা টু ঢাকা</h2>
+                        <h2 className="card-title">সিরাজ গঞ্জ <FcRight /> পাবনা </h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
 
                         <Link to='/reserve'>

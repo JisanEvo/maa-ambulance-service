@@ -11,6 +11,7 @@ import Reserve from './Components/Reserve/Reserve';
 import Service from './Components/Service/Service';
 import Contact from './Components/Contact/Contact';
 import SignIn from './Components/SignIn/SignIn';
+import Register from './Components/SignIn/Register';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path:'/login',
         element:<SignIn></SignIn>
+      },
+      {
+        path:'/signUp',
+        element:<Register></Register>
       }
     ]
   },
