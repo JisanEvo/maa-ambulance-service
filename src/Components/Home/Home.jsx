@@ -14,10 +14,11 @@ const Home = () => {
                </div>
                <h1 className="text-xl text-[#f3004b] fancy text-center pt-5 pb-1 w-48 mx-auto border-b-4 border-[#f3004b]  border-double rounded-full mb-8 hover:bg-[#f3004b] hover:text-white hover:py-4 ">মা এম্বুলেন্স</h1>
                <Description></Description>
-               <h1 className="text-xl text-[#f3004b] fancy text-center pt-5 pb-1 w-48 mx-auto border-b-4 border-[#f3004b]  border-double rounded-full mb-8 hover:bg-[#f3004b] hover:text-white hover:py-4 ">কেন সেরা ?</h1>
-                <Faq></Faq>
-                <h1 className="text-xl text-[#f3004b] fancy text-center pt-5 pb-1 w-48 mx-auto border-b-4 border-[#f3004b]  border-double rounded-full mb-8 hover:bg-[#f3004b] hover:text-white hover:py-4 ">কুইক সার্ভিস</h1>
+
+
+                {/* <h1 className="text-xl text-[#f3004b] fancy text-center pt-5 pb-1 w-48 mx-auto border-b-4 border-[#f3004b]  border-double rounded-full mb-8 hover:bg-[#f3004b] hover:text-white hover:py-4 ">কুইক সার্ভিস</h1> */}
                 <Service></Service>
+                <Faq></Faq>
         </div>
     );
 };

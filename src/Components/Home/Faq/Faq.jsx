@@ -26,12 +26,14 @@ function Faq() {
 
     return (
         <div className="space-y-4 p-2 md:p-6">
+          <h1 className="text-xl text-[#f3004b] fancy text-center pt-5 pb-1 w-48 mx-auto border-b-4 border-[#f3004b]  border-double rounded-full mb-8 hover:bg-[#f3004b] hover:text-white hover:py-4 ">কেন সেরা ?</h1>
             {data.map((item, idx) => {
                 const isActive = isOpen === idx;
                 const colorClasses = getColorClasses(item.color);
 
                 return (
                     <div key={idx}>
+
                         {/* Header / Title */}
                         <div
                             onClick={() => handleToggle(idx)}

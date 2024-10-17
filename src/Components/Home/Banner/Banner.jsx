@@ -15,7 +15,7 @@ export const Banner = () => {
     }, [currentSlider]);
 
     return (
-        <>
+        <div className="px-4 sm:px-8 rounded-md sm:rounded-lg">
             <div className="relative w-full h-80 sm:h-96 md:h-[540px] flex flex-col items-center justify-center gap-5 lg:gap-10 bg-cover bg-center "
                 style={{ backgroundImage: `url(${sliders[currentSlider].img})`, padding: 16 }}>
                 <div className="absolute inset-0 bg-black/50"></div>
@@ -35,7 +35,7 @@ export const Banner = () => {
                         alt={slide.title} />
                 ))}
             </div>
-        </>
+        </div>
     )
 };
 
