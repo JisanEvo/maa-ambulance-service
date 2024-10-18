@@ -1,14 +1,24 @@
 import { NavLink } from "react-router-dom";
 import SocialLogin from "./SocialLogin";
+import { useContext } from "react";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const SignIn = () => {
+    const {SignIn}=useContext(AuthContext)
     const handleLogin=event=>{
         event.preventDefault();
         const from=event.target;
         const email=from.email.value;
         const password=from.password.value;
         console.log(email,password)
+    signIn(email,password)
+    .then(result=>{
+        const user=result.user;
+        console.log(user)
+    })
     }
+
+
     return (
         <div>
             {/* <h1 className="text-xl ">Login Now</h1> */}
