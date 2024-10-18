@@ -12,8 +12,8 @@ const Service = () => {
     return (
         <div className="">
             <h1 className="text-xl text-[#f3004b] fancy text-center pt-5 pb-1 w-48 mx-auto border-b-4 border-[#f3004b]  border-double rounded-full mb-8 hover:bg-[#f3004b] hover:text-white hover:py-4 mt-7">কুইক সার্ভিস</h1>
-            <div className='grid lg:grid-cols-3 sm:grid-cols-1  container mx-auto gap-8 justify-center mb-7'>
-                {/* পাবনা টু ঢাকা ১ */}
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-8 justify-items-center">
+            {/* পাবনা টু ঢাকা ১ */}
 
 
                 <div className="card bg-base-100 w-96 shadow-xl px-4 sm:px-8 ">
@@ -22,10 +22,9 @@ const Service = () => {
                             src='/c2.png'
                             alt="Shoes" />
                     </figure>
-                    <div className="card-body">
-                        <h2 className="card-title">পাবনা <FcRight /> ঢাকা</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-
+                    <div className="card-body ">
+                        <h2 className="card-title flex justify-center text-center">পাবনা <FcRight /> ঢাকা</h2>
+                        <p className="text-center">দ্রুত, নিরাপদ এবং জরুরি চিকিৎসা <span className="mx-8">সেবা প্রদান করে থাকে।</span> </p>
 
                         <Link to='/reserve'>
                             <button className="btn btn-primary justify-center mx-24 sm:mx-24">রিজার্ভ করুন </button>
@@ -41,8 +40,8 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">ঢাকা <FcRight /> পাবনা</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title flex justify-center text-center">ঢাকা <FcRight /> পাবনা</h2>
+                        <p className="text-center">দ্রুত, নিরাপদ এবং জরুরি চিকিৎসা <span className="mx-8">সেবা প্রদান করে থাকে।</span> </p>
                         <div className="card-actions justify-end">
                             {/* <button >কল করুন(args) </button> */}
                             {/* <a href={`tel:${phoneNumber}`}>
@@ -63,9 +62,8 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">পাবনা <FcRight /> রাজশাহী</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-
+                        <h2 className="card-title flex justify-center text-center">পাবনা <FcRight /> রাজশাহী</h2>
+                        <p className="text-center">দ্রুত, নিরাপদ এবং জরুরি চিকিৎসা <span className="mx-8">সেবা প্রদান করে থাকে।</span> </p>
                         <Link to='/reserve'>
                         <button className="btn btn-primary justify-center mx-24 sm:mx-24">রিজার্ভ করুন </button>
                         </Link>
@@ -79,9 +77,8 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">রাজশাহী <FcRight /> পাবনা</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-
+                        <h2 className="card-title flex justify-center text-center">রাজশাহী <FcRight /> পাবনা</h2>
+                        <p className="text-center">দ্রুত, নিরাপদ এবং জরুরি চিকিৎসা <span className="mx-8">সেবা প্রদান করে থাকে।</span> </p>
                         <Link to='/reserve'>
                         <button className="btn btn-primary justify-center mx-24 sm:mx-24">রিজার্ভ করুন </button>
                         </Link>
@@ -95,8 +92,8 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">পাবনা <FcRight /> সিরাজগঞ্জ</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title flex justify-center text-center">পাবনা <FcRight /> সিরাজগঞ্জ</h2>
+                        <p className="text-center">দ্রুত, নিরাপদ এবং জরুরি চিকিৎসা <span className="mx-8">সেবা প্রদান করে থাকে।</span> </p>
 
                         <Link to='/reserve'>
                         <button className="btn btn-primary justify-center mx-24 sm:mx-24">রিজার্ভ করুন </button>
@@ -111,8 +108,8 @@ const Service = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">সিরাজ গঞ্জ <FcRight /> পাবনা </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title flex justify-center text-center">সিরাজ গঞ্জ <FcRight /> পাবনা </h2>
+                        <p className="text-center">দ্রুত, নিরাপদ এবং জরুরি চিকিৎসা <span className="mx-8">সেবা প্রদান করে থাকে।</span> </p>
 
                         <Link to='/reserve'>
                         <button className="btn btn-primary justify-center mx-24 sm:mx-24">রিজার্ভ করুন </button>

@@ -1,16 +1,15 @@
 import ReserveForm from "./ReserveForm";
 
 const Reserve = () => {
+    // const screenHeight=window.innerHeight*0.72
     return (
         <div>
-      <div className="flex flex-col sm:flex-row">
-    <div className="bg-black text-white sm:w-1/3 w-full p-4">
-        <ReserveForm />
-    </div>
-    <div className="bg-blue-700 sm:w-2/3 w-full text-white min-h-screen p-4">
-        Google Map
-    </div>
-</div>
+<div className="flex items-center justify-center min-h-screen container mx-auto">
+<div className="bg-red-300 text-white w-full p-4 rounded-lg py-8">
+                    <ReserveForm />
+                </div>
+
+            </div>
 
         </div>
     );

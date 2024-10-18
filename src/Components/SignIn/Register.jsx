@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import SocialLogin from "./SocialLogin";
 
 const Register = () => {
     return (
@@ -31,6 +32,7 @@ const Register = () => {
                 </form>
                 <div className="flex items-center justify-center space-x-1">
                     <p className="text-xs text-center sm:px-6 text-white">Already have an account?
+                        <SocialLogin></SocialLogin>
                         <NavLink to="/login">
                             <span className="btn btn-link">Log in</span>
                         </NavLink>
