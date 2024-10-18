@@ -2,13 +2,22 @@ import { NavLink } from "react-router-dom";
 import SocialLogin from "./SocialLogin";
 
 const Register = () => {
+    const handleRegister=event=>{
+        event.preventDefault()
+        const form=event.target;
+        const name=form.name.value;
+        const email=form.email.value;
+        const password=form.password.value;
+        const photo=form.photo.value;
+        console.log(name,email,password,photo)
+    }
     return (
         <div>
             {/* <h1>Register Now This Site....</h1> */}
             <div className="flex justify-center items-center h-screen" >
             <div className="w-full max-w-md p-8 space-y-3 rounded-xl bg-red-500 dark:text-gray-800">
                 <h1 className="text-2xl font-bold text-center text-white">Sign Up</h1>
-                <form  noValidate="" action="" className="space-y-6">
+                <form onSubmit={handleRegister}   noValidate="" action="" className="space-y-6">
                     <div className="space-y-1 text-sm">
                         <label htmlFor="username" className="block text-xl text-white">Username:</label>
                         <input type="text" name="name" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
@@ -25,17 +34,20 @@ const Register = () => {
 
                     <div className="mt-4">
                         <label className="block mb-2 text-sm font-medium text-white" htmlFor="photo">Choose Your Profile</label>
-                        <input id="photo" autoComplete="photo" name="image" className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300" type="file" />
+                        <input id="photo" autoComplete="photo" name="photo" className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300" type="file" />
                     </div>
 
                     <button className="block btn btn-warning w-full p-3 text-center rounded-sm text-black dark:bg-violet-600">Sign Up</button>
                 </form>
                 <div className="flex items-center justify-center space-x-1">
                     <p className="text-xs text-center sm:px-6 text-white">Already have an account?
-                        <SocialLogin></SocialLogin>
+                        {/* <SocialLogin></SocialLogin> */}
                         <NavLink to="/login">
                             <span className="btn btn-link">Log in</span>
                         </NavLink>
+                        <br />
+                        {/* <NavLink to='/'>  <button className="btn btn-warning text-white">Home</button></NavLink> */}
+
                     </p>
                 </div>
             </div>
