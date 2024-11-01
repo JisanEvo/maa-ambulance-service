@@ -49,7 +49,7 @@ const Register = () => {
                 <h1 className="text-2xl font-bold text-center text-white">Sign Up</h1>
                 <form onSubmit={handleSignUp}   noValidate="" action="" className="space-y-6">
                     <div className="space-y-1 text-sm">
-                        <label htmlFor="username" className="block text-xl text-white">Username:</label>
+                        <label  className="block text-xl text-white">Username:</label>
                         <input type="text" name="name" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md "  autoComplete="name"/>
                     </div>
 
