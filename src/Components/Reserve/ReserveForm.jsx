@@ -9,7 +9,7 @@ const AutoCompleteAddress = () => {
     const [inputValue, setInputValue] = useState('');
     const [suggestions, setSuggestions] = useState([]);
     const [selectedLocation, setSelectedLocation] = useState(null); // Coordinates for selected location
-    const apiKey = 'b457125c27364542bbd332bea921f2aa'; // Your OpenCage API Key
+    const apiKey = 'b457125c27364542bbd332bea921f2aa';
 
     // Function to handle input change and fetch suggestions
     const handleInputChange = async (e) => {
@@ -98,29 +98,6 @@ const AutoCompleteAddress = () => {
         </div>
 
 
-
-
-
-
-
-
-        // <div style={{ width: '400px', margin: '0 auto' }}>
-        //     {/* Input field for address */}
-        //     <input
-        //     className='text-black'
-        //         type="text"
-        //         value={inputValue}
-        //         onChange={handleInputChange}
-
-        //         placeholder="Enter address..."
-        //         style={{ width: '100%', padding: '10px', borderRadius: '5px' }}
-        //     />
-
-        //     {/* Show suggestions */}
-
-
-
-        // </div>
     );
 };
 
